@@ -1,0 +1,44 @@
+li:visited{
+    color: white;
+}
+
+section:nth-child(odd){
+    background-color: rgb(230, 103, 154);
+}
+
+section:nth-child(even){
+    background-color: rgb(172, 43, 94);
+}
+
+body{
+    /* background-image: url(imgs/backgroundImg.jpg);
+    background-repeat: no-repeat; */
+    font-family: "Montserrat", sans-serif;
+}
+section{
+    background-color: pink;
+}
+
+.logo {
+    display: block;
+    margin: 0 auto;
+}
+
+.classForm {
+    padding: 20px;
+}
+
+.btn {
+    background-color: #FF4191;
+    color: white;
+    border: transparent;
+    padding: 10px 20px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+
+.btn:hover{
+    background-color: #E90074;
+}
